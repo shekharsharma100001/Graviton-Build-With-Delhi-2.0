@@ -1,0 +1,22 @@
+copy_paste: 0.0
+degrees: 0.0
+fliplr: 0.5
+flipud: 0.0
+hsv_h: 0.015
+hsv_s: 0.7
+hsv_v: 0.4
+mixup: 0.0
+mosaic: 0.8
+names:
+- FireExtinguisher
+- ToolBox
+- OxygenTank
+nc: 3
+path: data
+perspective: 0.0
+scale: 0.5
+shear: 0.0
+test: test/images
+train: train/images
+translate: 0.1
+val: val/images

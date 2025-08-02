@@ -1,0 +1,45 @@
+{
+  "experiment_name": "balanced_moderate_20250801_210154",
+  "parameter_set": "balanced",
+  "augmentation_level": "moderate",
+  "parameters": {
+    "epochs": 100,
+    "mosaic": 0.8,
+    "lr0": 0.01,
+    "lrf": 0.01,
+    "momentum": 0.937,
+    "weight_decay": 0.0005,
+    "warmup_epochs": 3,
+    "box": 7.5,
+    "cls": 0.5,
+    "dfl": 1.5,
+    "description": "Balanced approach - moderate settings for good performance"
+  },
+  "description": "Balanced approach - moderate settings for good performance",
+  "timestamp": "2025-08-01T22:57:01.141112",
+  "yaml_config": {
+    "path": "data",
+    "train": "train/images",
+    "val": "val/images",
+    "test": "test/images",
+    "nc": 3,
+    "names": [
+      "FireExtinguisher",
+      "ToolBox",
+      "OxygenTank"
+    ],
+    "hsv_h": 0.015,
+    "hsv_s": 0.7,
+    "hsv_v": 0.4,
+    "degrees": 0.0,
+    "translate": 0.1,
+    "scale": 0.5,
+    "shear": 0.0,
+    "perspective": 0.0,
+    "flipud": 0.0,
+    "fliplr": 0.5,
+    "mosaic": 0.8,
+    "mixup": 0.0,
+    "copy_paste": 0.0
+  }
+}
