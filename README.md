@@ -132,7 +132,7 @@ streamlit run app.py
 
 ## 🧠 Author
 
-Made with ❤️ using Streamlit and YOLOv8.
+Made with Team Graviton using Streamlit and YOLOv8.
 
 ---
 
