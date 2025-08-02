@@ -45,8 +45,8 @@ AI_Space_duality/
 | Metric           | Score     |
 |------------------|-----------|
 | mAP@0.5          | _0.94359_ |
-| Precision        | _98%_ |
-| Recall           | _91%_ |
+| Precision        | _91%_ |
+| Recall           | _98%_ |
 
 Confusion matrix and visual samples are included in the `runs/` folder and final report.
 
