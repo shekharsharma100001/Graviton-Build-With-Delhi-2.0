@@ -57,7 +57,7 @@ elif mode in ["Upload Video", "Use Sample Video"]:
             ret, frame = cap.read()
             if not ret:
                 break
-
+            frame = cv2.resize(frame, (640, 640))
             results = model.predict(frame, conf=conf_threshold, verbose=False)
             annotated = results[0].plot()
             stframe.image(annotated, channels="BGR", use_container_width=True)
