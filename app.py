@@ -62,7 +62,7 @@ elif mode in ["Upload Video", "Use Sample Video"]:
             annotated = results[0].plot()
             stframe.image(annotated, channels="BGR", use_container_width=True)
 
-            time.sleep(1 / 30.0)  # simulate ~30 FPS
+              # simulate ~30 FPS
 
         cap.release()
         st.success("Finished processing video.")
